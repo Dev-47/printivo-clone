@@ -1,0 +1,63 @@
+@use "utilities.scss";
+
+.top-div {
+  font-size: 0.9rem;
+  color: $text-color;
+  font-weight: 700;
+  background: #f7f6f4;
+}
+
+header {
+  background: $background-color;
+
+  nav {
+    font-weight: 700;
+    color: $text-color;
+  }
+
+  section {
+    color: $text-color;
+
+    h2 {
+      font-family: $header-font;
+      font-size: 4.5rem;
+    }
+
+    h3 {
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: $light-text-color;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-top: 1.5rem;
+      font-weight: 700;
+    }
+
+    .input {
+      height: 5rem;
+      width: 38rem;
+      position: relative;
+      padding: 0 0.5rem;
+
+      input,
+      button {
+        position: absolute;
+        top: 30%;
+        display: block;
+      }
+
+      input {
+        font-weight: 500;
+        font-size: 1.08rem;
+        left: 3%;
+        width: 80%;
+      }
+
+      button {
+        right: 5%;
+      }
+    }
+  }
+}

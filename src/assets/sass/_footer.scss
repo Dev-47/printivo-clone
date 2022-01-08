@@ -1,0 +1,24 @@
+@use "utilities.scss";
+
+footer {
+  div {
+    background: $text-color;
+    color: white;
+    padding: 2rem;
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // width: 100%;
+    // place-content: space-between;
+  }
+  section {
+    color: $text-color;
+  }
+}
+
+@media (max-width: 640px) {
+  footer {
+    div {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

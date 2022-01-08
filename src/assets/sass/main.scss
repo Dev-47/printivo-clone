@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "utilities.scss";
+
+* {
+  font-family: "Mukta", sans-serif;
+}
+
+@import "header.scss";
+@import "footer.scss";
+
+.fixed-element {
+  position: fixed;
+  bottom: 0;
+  left: 0.8rem;
+  background: $dark-pink-color;
+  color: white;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  padding: 0.6rem 0.9rem;
+}
+
+input:focus {
+  outline: none;
+}
